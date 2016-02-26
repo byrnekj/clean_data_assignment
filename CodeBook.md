@@ -37,3 +37,26 @@ This step is handled as part of step 1.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
  * Using the table called subset the data is summaried on Subject and Activity and stored in a table called summarized_data
  * The table summarized_data is then writen to a flat file called tidydata.txt.
+
+## Variables
+Subject - A number ranging from 1 to 30 corresponding to the subject being measured.
+Acivity - A string describing the activity being performed when the measurement was taken.
+The remaining columns contain mean and standard deviations for the associated measurement on the noted axis (X,Y, orZ).
+The vectors measured include.
+* tBodyAcc-XYZ
+* tGravityAcc-XYZ
+* tBodyAccJerk-XYZ
+* tBodyGyro-XYZ
+* tBodyGyroJerk-XYZ
+* tBodyAccMag
+* tGravityAccMag
+* tBodyAccJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
+* fBodyAcc-XYZ
+* fBodyAccJerk-XYZ
+* fBodyGyro-XYZ
+* fBodyAccMag
+* fBodyAccJerkMag
+* fBodyGyroMag
+* fBodyGyroJerkMag
